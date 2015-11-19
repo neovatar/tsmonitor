@@ -1,0 +1,27 @@
+AllCops:
+  Exclude:
+    - vendor/**
+    - 'chef-repo/cookbooks/**'
+
+ClassLength:
+  Enabled: false
+Documentation:
+  Enabled: false
+Encoding:
+  Enabled: false
+LineLength:
+  Enabled: false
+MethodLength:
+  Enabled: false
+SignalException:
+  Enabled: false
+TrailingComma:
+  Enabled: false
+WordArray:
+  Enabled: false
+Style/AsciiComments:
+  Enabled: false
+Style/SingleSpaceBeforeFirstArg:
+  Enabled: false
+Style/NumericLiterals:
+  Enabled: false
